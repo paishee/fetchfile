@@ -1,0 +1,9 @@
+{
+    "name": "fetchfile",
+    "author": "paishee",
+    "dependencies": {
+         "aepl": "latest",
+         "node-fetch": "latest"
+    },
+    "main": "./index.js"
+}
