@@ -1,9 +1,29 @@
 {
     "name": "fetchfile",
+    "version": "1.0.0",
     "author": "paishee",
-    "dependencies": {
-         "aepl": "latest",
-         "node-fetch": "latest"
+    "description": "JavaScript package letting you more easily fetch files from a github repo",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/paishee/fetchfile.git"
     },
-    "main": "./index.js"
+    "bugs": {
+        "url": "https://github.com/paishee/fetchfile/issues"
+    },
+    "license": {
+        "type": "MIT",
+        "url": "https://github.com/paishee/fetchfile/blob/main/LICENSE"
+    },
+    "dependencies": {
+        "node-fetch": "latest",
+        "aepl": "latest"
+    },
+    "keywords": [
+        "nodejs",
+        "github",
+        "git",
+        "aepl",
+    ],
+    "homepage": "https://github.com/paishee/fetchfile",
+    "main": "index.js"
 }
