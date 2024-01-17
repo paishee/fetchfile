@@ -8,7 +8,7 @@ aepl.init("FetchedFile", class {
         const blob = payload.blob
         
         this.name = blob.displayName
-        this.url = blob.displayUrl
+        this.url = blob.displayUrl.replace("?raw=true", "").replace("&raw=true", "")
         this.type = blob.language
 
         this.code = blob.rawLines.join("\n")
